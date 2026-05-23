@@ -22,3 +22,12 @@ wheels/
 .vscode/
 venv/
 env/
+# Local Python venv used by scripts/qwen3-tts-cli.sh
+.venv/
+
+# Generated audio outputs
+/qwen3_tts_*.wav
+/examples/out/
+
+# Claude Code local harness config
+/.claude/
